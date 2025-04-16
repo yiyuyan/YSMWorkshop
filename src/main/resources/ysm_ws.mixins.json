@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ysm_ws.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ysm_ws.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftMixin",
+    "PauseScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

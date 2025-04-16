@@ -1,0 +1,4 @@
+#Use the API direct download hte ysm file instead of opening the browser
+direct_download = true
+#Auto try to apply the ysm file when you downloaded a file
+auto_apply = true

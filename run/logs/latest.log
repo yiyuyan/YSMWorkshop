@@ -1,0 +1,148 @@
+[134月2025 17:57:00.841] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.160, --assetIndex, 17, --assetsDir, F:\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.0.160, --fml.fmlVersion, 4.0.23, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[134月2025 17:57:00.844] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21.0.2+13-58
+[134月2025 17:57:00.846] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[134月2025 17:57:01.016] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[134月2025 17:57:01.195] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[134月2025 17:57:01.270] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[134月2025 17:57:01.425] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.6 Source=union:/F:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/c265173c84346e9e5d42a2384b2b02bd39a4a899/sponge-mixin-0.14.0+mixin.0.8.6.jar%23131!/ Service=ModLauncher Env=CLIENT
+[134月2025 17:57:01.689] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) HD Graphics 630 GL version 4.6.0 - Build 31.0.101.2121, Intel
+[134月2025 17:57:01.977] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[134月2025 17:57:02.294] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[134月2025 17:57:04.452] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[134月2025 17:57:04.466] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.160, --gameDir, ., --assetsDir, F:\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[134月2025 17:57:04.535] [main/WARN] [mixin/]: Reference map 'yes_steve_model.refmap.json' for yes_steve_model.mixins.json could not be read. If this is a development environment you can ignore this message
+[134月2025 17:57:04.536] [main/WARN] [mixin/]: Reference map 'ysm_ws.refmap.json' for ysm_ws.mixins.json could not be read. If this is a development environment you can ignore this message
+[134月2025 17:57:06.974] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 493 milliseconds
+[134月2025 17:57:07.133] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[134月2025 17:57:16.224] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[134月2025 17:57:16.226] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[134月2025 17:57:16.233] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[134月2025 17:57:16.236] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[134月2025 17:57:16.241] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[134月2025 17:57:16.549] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/YSMWorkshop/build/moddev/artifacts/neoforge-21.0.160-merged.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[134月2025 17:57:16.549] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/YSMWorkshop/build/moddev/artifacts/neoforge-21.0.160-merged.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[134月2025 17:57:16.589] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[134月2025 17:57:16.604] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[134月2025 17:57:16.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[134月2025 17:57:17.057] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.160, for MC 1.21
+[134月2025 17:57:18.968] [modloading-worker-0/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: yes_steve_model, class com.elfmcys.yesstevemodel.YesSteveModel
+java.lang.RuntimeException: err: 54
+
+SbGFt8Iq7ugyX2+Vpa4ydM120bFIcUkLbcFANrj+mvulv4jTvLPmgGanv2tw52UZWHVeX2pZT5CWIlYwvVNsPqt9iFIm1/9sm4SF0Sfg9f71tV/Ao8SlUWRUNiDA3sBuwly8l2aKgYBO+wfnyLOXGHJ26eshAaiBpz3xu0xZjjc=
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method) ~[?:?]
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331) ~[?:?]
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197) ~[?:?]
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2418) ~[?:?]
+	at java.base/java.lang.Runtime.load0(Runtime.java:852) ~[?:?]
+	at java.base/java.lang.System.load(System.java:2025) ~[?:?]
+	at TRANSFORMER/yes_steve_model@2.4.1/com.elfmcys.yesstevemodel.oo0OoOOOOOo0oOO0o0oo00oo.oOO0OOoOOOO0OoooOO0oO000(Unknown Source) ~[yesstevemodel-neoforge-1.21-2.4.1-release.jar%23186!/:2.4.1]
+	at TRANSFORMER/yes_steve_model@2.4.1/com.elfmcys.yesstevemodel.YesSteveModel.<init>(Unknown Source) ~[yesstevemodel-neoforge-1.21-2.4.1-release.jar%23186!/:2.4.1]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.23.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.23.jar%23139!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.23.jar%23139!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[134月2025 17:57:18.980] [Render thread/FATAL] [net.neoforged.fml.ModLoader/LOADING]: Failed to wait for future Mod Construction, 1 errors found
+[134月2025 17:57:19.079] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[134月2025 17:57:19.236] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[134月2025 17:57:19.241] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[134月2025 17:57:19.314] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderBuffersEvent to a broken mod state
+[134月2025 17:57:19.418] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[134月2025 17:57:19.462] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[134月2025 17:57:19.542] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent to a broken mod state
+[134月2025 17:57:19.543] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpriteSourceTypesEvent to a broken mod state
+[134月2025 17:57:19.570] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterMenuScreensEvent to a broken mod state
+[134月2025 17:57:19.570] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[134月2025 17:57:19.570] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[134月2025 17:57:19.570] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[134月2025 17:57:19.571] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[134月2025 17:57:19.572] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[134月2025 17:57:19.572] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[134月2025 17:57:19.575] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[134月2025 17:57:19.575] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterGuiLayersEvent to a broken mod state
+[134月2025 17:57:19.578] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[134月2025 17:57:19.579] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[134月2025 17:57:19.580] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[134月2025 17:57:19.580] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[134月2025 17:57:19.586] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[134月2025 17:57:19.587] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.gui.map.RegisterMapDecorationRenderersEvent to a broken mod state
+[134月2025 17:57:19.767] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla
+[134月2025 17:57:19.800] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[134月2025 17:57:19.918] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[134月2025 17:57:19.923] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[134月2025 17:57:21.140] [Worker-Main-3/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[134月2025 17:57:21.628] [Worker-Main-3/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+[134月2025 17:57:21.739] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[134月2025 17:57:21.739] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[134月2025 17:57:21.832] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek High Definition Audio)
+[134月2025 17:57:21.833] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[134月2025 17:57:21.833] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[134月2025 17:57:22.100] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[134月2025 17:57:22.842] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:22.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[134月2025 17:57:22.874] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:22.874] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[134月2025 17:57:22.932] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:22.932] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[134月2025 17:57:22.986] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:22.986] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[134月2025 17:57:23.995] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:23.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[134月2025 17:57:24.069] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.069] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[134月2025 17:57:24.097] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.097] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[134月2025 17:57:24.148] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.149] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[134月2025 17:57:24.197] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.198] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[134月2025 17:57:24.313] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.319] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.431] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.433] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.436] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.437] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.439] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.440] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.440] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.441] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.442] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.444] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.444] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.444] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.449] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.451] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.455] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.455] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.457] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.457] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.462] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.462] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[134月2025 17:57:24.463] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[134月2025 17:57:24.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[134月2025 17:57:24.617] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.618] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[134月2025 17:57:24.622] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.622] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[134月2025 17:57:24.624] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.624] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[134月2025 17:57:24.626] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.626] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[134月2025 17:57:24.648] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[134月2025 17:57:24.983] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[134月2025 17:57:25.557] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterShadersEvent to a broken mod state
+[134月2025 17:57:25.727] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 0eaa911a-2203-48a5-98a8-5f35f308839a
+[134月2025 17:57:25.728] [Render thread/FATAL] [net.neoforged.neoforge.client.loading.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2025-04-13_17.57.25-fml.txt
+[134月2025 17:57:25.731] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID f5692bac-e639-4233-abf3-4179c25fada8
+[134月2025 17:57:44.451] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
