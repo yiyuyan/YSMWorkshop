@@ -87,7 +87,7 @@ public class YSMList extends ContainerObjectSelectionList<YSMList.Entry> {
                     try {
                         String url = Config.DOWNLOAD_API.get()+"?url="+this.data.get("lanzou_url").getAsString()+"&pwd="+this.data.get("lanzou_pwd").getAsString()+"&type=down";
                         YSMWorkshop.LOGGER.info("Built a download url.");
-                        YSMList.this.downloadNet(this.name,url);
+                        YSMList.this.downloadNet(this.name,url,data.get("ysm").getAsBoolean());
                         YSMWorkshop.reload_YSM();
                         MC.getToasts().addToast(new SystemToast(SystemToast.SystemToastId.NARRATOR_TOGGLE,Component.literal("Successful!"),null));
                     } catch (MalformedURLException e) {
@@ -139,7 +139,7 @@ public class YSMList extends ContainerObjectSelectionList<YSMList.Entry> {
         }
     }
 
-    public File downloadNet(String saveName, String urlS) throws MalformedURLException {
+    public File downloadNet(String saveName, String urlS,boolean ysm) throws MalformedURLException {
         int bytesum = 0;
         int byteread = 0;
 
@@ -148,7 +148,7 @@ public class YSMList extends ContainerObjectSelectionList<YSMList.Entry> {
         try {
             URLConnection conn = url.openConnection();
             InputStream inStream = conn.getInputStream();
-            FileOutputStream fs = new FileOutputStream("config\\yes_steve_model\\custom\\"+saveName.replace(" ","_")+".ysm");
+            FileOutputStream fs = new FileOutputStream("config\\yes_steve_model\\custom\\"+saveName.replace(" ","_")+"."+(ysm?"ysm":"zip"));
 
             byte[] buffer = new byte[1204];
             while ((byteread = inStream.read(buffer)) != -1) {

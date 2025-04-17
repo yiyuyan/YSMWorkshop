@@ -20,14 +20,14 @@ import java.net.URLEncoder;
 
 public class UpdateScreen extends OptionsSubScreen {
 
-    public Checkbox G,PG13;
+    public Checkbox G,PG13,YSM;
     public boolean w;
 
-    private final LabelAndEditBox name = new LabelAndEditBox(0,0,100,20,Component.literal("Name:")),
+    private final LabelAndEditBox name = new LabelAndEditBox(0,0,100,20,Component.literal("Name*:")),
             authors = new LabelAndEditBox(0,0,100,20,Component.literal("Author(s):")),
             tag = new LabelAndEditBox(0,0,100,20,Component.literal("Tag(s):")),
             context = new LabelAndEditBox(0,0,100,20,Component.literal("Context:")),
-            lanzou_url = new LabelAndEditBox(0,0,100,20,Component.literal("The lanzou cloud url:")),
+            lanzou_url = new LabelAndEditBox(0,0,100,20,Component.literal("The lanzou cloud url*:")),
             lanzou_pwd = new LabelAndEditBox(0,0,100,20,Component.literal("The lanzou cloud url's password:"));
 
     public UpdateScreen(Screen last) {
@@ -57,6 +57,7 @@ public class UpdateScreen extends OptionsSubScreen {
                 w = false;
             }
         }).build();
+        YSM = Checkbox.builder(Component.literal("YSM File"),MC.font).selected(true).build();
 
         tag.setValue(MavenVersionTranslator.artifactVersionToString(ModList.get().getModContainerById("yes_steve_model").get().getModInfo().getVersion()));
 
@@ -74,6 +75,7 @@ public class UpdateScreen extends OptionsSubScreen {
         linearLayout.addChild(lanzou_pwd);
         linearLayout.addChild(context);
 
+        linearLayout.addChild(YSM);
         linearLayout.addChild(new Label(0,0,Component.literal("Age grading:")));
 
         LinearLayout linearLayout1 = new LinearLayout(0,0, LinearLayout.Orientation.HORIZONTAL);
@@ -104,6 +106,7 @@ public class UpdateScreen extends OptionsSubScreen {
             builder.append("&context=").append(URLEncoder.encode(context.getValue()).replace("%2C",","));
             builder.append("&lanzou_url=").append(lanzou_url.getValue());
             builder.append("&lanzou_pwd=").append(lanzou_pwd.getValue());
+            builder.append("&ysm=").append(YSM.selected());
             YSMWorkshop.LOGGER.info("Built a url: {}",builder);
             String context = YSMList.getNet(builder.toString());
             if(context!=null){
